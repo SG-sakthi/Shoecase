@@ -1,0 +1,271 @@
+body {
+	background-image: url("bg4.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position-x: center;
+	background-position-y: -100px;
+	width: auto;
+	background-attachment: fixed;
+	overflow-x: hidden;
+}
+#btn:hover{
+	background-color:rgb(255, 255, 255);
+	border:solid 3px rgb(255, 255, 255);
+	color: rgb(255, 0, 43);
+	transition: 0.4s;
+	transform: skewY(20px); 
+	transition:ease-out 0.5s;
+}
+.desc{
+	margin-top: 120px;
+	margin-left: 100px;
+
+}
+#up{
+	color: #ff0000;
+}
+#describe{
+	font-family: Yu Gothic UI;
+	color: #ffffff;
+	font-size: 60px;
+
+}
+#decribe-cont{
+	color: #ffffff;
+	font-size: 20px;
+	font-family: Yu Gothic UI;
+	padding-right: 900px;
+}
+#head{
+	top: 33px;
+	left: 30px;
+	width: 181px;
+	height: 51px;
+	overflow: hidden;
+	font-family: Segoe Print;
+	font-size: 32px;
+	font-weight: bold;
+	text-align: right;
+	color:#ffffff;
+}
+#logo{
+	top: 67px;
+	left: 20px;
+	width: 31px;
+	height: 29px;
+	margin-top: 37px;
+	margin-left: 30px;
+}
+
+#ellipse 
+{
+	top: -347px;
+	left: 913px;
+	width: 700px;
+	height: 700px;
+	-ms-border-radius: 324px / 319px;
+	-o-border-radius: 324px / 319px;
+	-moz-border-radius: 324px / 319px;
+	-webkit-border-radius: 324px / 319px;
+	border-radius: 324px / 319px;
+	border: 1px solid #ff0000;
+	opacity: 90%;
+	background: rgb(163, 19, 42);
+}
+
+div
+{
+	position: absolute;
+}
+
+#content-container {
+	position: relative;
+	overflow: hidden;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content-container #navbar a {
+	text-decoration: none;
+	color: #000000;
+}
+
+
+#home {
+	top: 0px;
+	left: 0px;
+	width: 114.28px;
+	height: 49px;
+	overflow: hidden;
+	font-family: Yu Gothic UI;
+	font-size: 24px;
+	font-weight: bolder;
+	text-align: left;
+	color: #000000;
+}
+
+
+#help_ {
+	top: 0px;
+	left: 589px;
+	width: 106.91px;
+	height: 49px;
+	overflow: hidden;
+	font-family: Yu Gothic UI;
+	font-size: 24px;
+	font-weight: bolder;
+	text-align: left;
+	color: #000000;
+}
+
+
+#office {
+	top: 0px;
+	left: 456px;
+	width: 120.59px;
+	height: 49px;
+	overflow: hidden;
+	font-family: Yu Gothic UI;
+	font-size: 24px;
+	font-weight: bolder;
+	text-align: left;
+	color: #000000;
+}
+
+
+#sports {
+	top: 0px;
+	left: 331px;
+	width: 131.12px;
+	height: 49px;
+	overflow: hidden;
+	font-family: Yu Gothic UI;
+	font-size: 24px;
+	font-weight: bolder;
+	text-align: left;
+	color: #000000;
+}
+
+
+#sandals {
+	top: 0px;
+	left: 216px;
+	width: 151.13px;
+	height: 49px;
+	overflow: hidden;
+	font-family: Yu Gothic UI;
+	font-size: 24px;
+	font-weight: bolder;
+	text-align: left;
+	color: #000000;
+
+}
+
+
+#casuals {
+	top: 0px;
+	left: 96px;
+	width: 146.91px;
+	height: 49px;
+	overflow: hidden;
+	font-family: Yu Gothic UI;
+	font-size: 24px;
+	font-weight: bolder;
+	text-align: left;
+	color: #000000;
+}
+
+#btn {
+	background-color: rgb(205, 12, 44);
+	height: 55px;
+	width: 170px;
+	border-radius: 5px;
+	border-color:rgb(205, 12, 44) ;
+	font-family: Consolas;
+	font-size: 20px;
+	font-weight:bolder ;
+	margin-top: 480px;
+	margin-left: 90px;
+	color: rgb(255, 255, 255);
+	box-shadow: 0px 5px 20px rgba(81, 81, 81, 0.385) ;
+}
+
+.navbar {
+
+	top: 41px;
+	left: 809px;
+	width: 666.91px;
+	height: 32px;
+	justify-content: space-evenly;
+
+
+}
+  .nav-link{
+	font-weight: bold;
+	font-size:22px ;
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+	position: relative;
+	opacity: 1;
+
+  }
+.nav-link:hover{
+	opacity:10;
+}
+.nav-link::before{
+	transition: 0.5s;
+	height: 3px;
+	width: 5px;
+	content: "";
+	position: absolute;
+	background-color: #ffffff;
+
+}
+.nav-under::before{
+	width: 0%;
+	bottom: -4px;
+
+}
+.nav-under:hover::before{
+	width:100%;
+	bottom: -4px;
+	opacity: 10;
+
+}
+
+  
+.nav-li{
+	font-weight: bold;
+	font-size:22px ;
+	text-decoration: none;
+	color: crimson;
+	display: inline-block;
+	position: relative;
+	opacity: 1;
+
+  }
+.nav-li:hover{
+	opacity:10;
+}
+.nav-li::before{
+	transition: 0.5s;
+	height: 3px;
+	width: 5px;
+	content: "";
+	position: absolute;
+	background-color: #c84848;
+
+}
+.nav-un::before{
+	width: 0%;
+	bottom: -4px;
+
+}
+.nav-un:hover::before{
+	width:100%;
+	bottom: -4px;
+	opacity: 10;
+
+}

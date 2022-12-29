@@ -1,0 +1,388 @@
+body{
+	overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+section{
+    padding: 5px 0;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+section .title{
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+ border-radius: 100px;
+ width: 400px;
+ align-items: center;
+ margin-left: 350px;
+ text-size-adjust: 20px;
+}
+section .title::before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 1800px;
+    height: 3px;
+    background: rgba(200, 39, 39, 0.666);
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+}
+section .title::after{
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    font-size: 20px;
+    color: rgb(220, 22, 22);
+    padding:  5px;
+    transform : translateX(-50%);
+}
+#inp{
+	font-size: medium;
+	font-family: Yu Gothic UI;
+	size: 1px;
+	border-radius: 20px;
+	border-color: #f9402c;
+opacity: 1;
+
+	
+}
+/* shoes section styling */
+.shoes{
+    color:#fff;
+    background: rgb(255, 255, 255);
+    background-size: cover;
+}
+
+.shoes .title::after{
+    background: rgba(255, 255, 255, 0);
+    content: "";
+    font-family: Segoe Print;
+    font-size: 17px;
+margin-top: 20px;
+    padding-right: 1400px;
+    padding-bottom: 80px;
+}
+#p{
+	font-family: Yu Gothic UI;
+	font-weight: bold;
+}
+#ss{
+    width:200px;
+    height: 130px;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar{
+position: absolute;
+    width: 100%;
+    z-index: 999;
+    padding: 10px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+	margin-right: 120px;
+	padding-left: 700px;
+background-color: rgb(255, 255, 255);
+}
+.navbar.sticky{
+    padding: 15px 0;
+    background: crimson;
+}
+.navbar .max-width{
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    font-family: Yu Gothic UI;
+}
+.navbar .menu li a:hover{
+    color: crimson;
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #bc6262;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(188, 17, 17);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(214, 83, 83);
+}
+#cart{
+    font-size:20px ;
+    text-align: right;
+    padding-left: 20px;
+}
+
+/*dropdown*/
+.dropbtn {
+    background-color: #3498db00;
+    color: rgb(206, 47, 47);
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 800px;
+    margin-top: -88px;
+    font-family: Yu Gothic UI;
+    font-weight: bold;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #92bcd800;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f100;
+    min-width: 160px;
+    overflow: auto;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 2px;
+    text-decoration: none;
+    display: block;
+    margin-left: 800px;
+    padding-right:auto;
+    padding-left: -200px;
+
+   
+  }
+  
+  .dropdown a:hover {background-color: #ddd;
+}
+  
+  .show {display: block;}
+  #dd{
+    margin-top: auto;
+  }
+  #sort{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-top: 5px;
+    position: absolute;
+    font-weight: bolder;
+  }
+  #addcart{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 840px;
+    padding-top: 0px;
+    position: absolute;
+    margin-top: -30px;
+color: crimson;
+font-family: Yu Gothic UI;
+font-weight: bold;
+  }
+  #cart-1{
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-top: 3px;
+    position: absolute;
+    color:crimson ;
+  }
+  #log{
+    padding-top: 20px;
+    font-family: Segoe Print;
+    font-weight: bold;
+    color: crimson;
+    font-size:29px;
+   margin-left: -750px;
+   margin-top: -20px;
+  }
+#span{
+    color: rgb(0, 0, 0);
+  }
+  #logo{
+    width: 20px;
+    height: 20px;
+  }
+
+  .badge-notify{
+    background:rgba(255, 246, 246, 0);
+    position:absolute;
+    top:0px;
+    width: 13px;
+    height: 13px;
+    margin-top: -2px;
+    border-radius: 5px;
+    
+   }
+  #myCarousel{
+  height: auto;
+  width: 800px;
+  align-items:center ;
+  margin-left: 150px;
+}
+.carousel-inner{
+  width: 800px;
+  height: 400px;
+
+}
+.line{
+  
+  height: 3px;
+  width: 100%;
+  background-color:rgba(139, 139, 139, 0.199); 
+}
+.description{
+  padding-left: 350px;
+  font-family: Yu Gothic UI;
+  align-items: center;
+  
+}
+#desc{
+opacity: 0.80;
+}
+#price{
+opacity: 0.95;
+}
+
+#inc{
+  opacity: 0.78;
+}
+#btn{
+  width: 90px;
+  height: 40px;
+  font-weight: bold;
+  border-color: #ddd;
+  border-radius: 3px;
+  margin: 4px;
+}
+#bag{
+  width: 300px;
+  height: 70px;
+  border-radius: 50px;
+  font-size: large;
+  color: #ddd;
+  background-color: black;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+#wish{
+  width: 300px;
+  height: 70px;
+  border-radius: 50px;
+  font-size: large;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  font-weight: bolder;
+}
+#bag:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+  transition: 0.3s;
+  font-size:large;
+  font-weight:bolder; 
+  width: 310px;
+  height: 75px; 
+}
+#wish:hover{
+  width: 310px;
+  height: 75px;
+  border-radius: 50px;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  font-weight: bolder;
+  transition: 0.3s;
+}
+.description{
+  opacity: 1;
+
+
+}
+.size-grp
+{
+	display: flex;
+
+  flex-wrap: wrap;
+  width: 40%;
+
+	/* flex-wrap: wrapx; */
+}
+#rot{
+    
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 590px;
+  padding-top: 10px;
+  position: absolute;
+  color:rgb(255, 255, 255) ;
+}
+#view{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 500px;
+  padding-bottom: 10px;
+  position: absolute;
+  color:rgb(255, 255, 255) ;
+  font-family: Yu Gothic UI;
+}
+#tsixty{
+  margin-left: 540px;
+  margin-top: 13px;
+  border-color: white;
+  border-radius: 18px;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  background-color: rgba(128, 128, 128, 0);
+}

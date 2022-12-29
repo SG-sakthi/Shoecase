@@ -1,0 +1,349 @@
+body{
+	overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+section{
+    padding: 100px 0;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.shoes .shoes-product
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+   
+}
+
+#log{
+    padding-top: 20px;
+    font-family: Segoe Print;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size:29px;
+   margin-left: -850px;
+   margin-top: -45px;
+  }
+#span{
+    color: rgb(255, 11, 11);
+  }
+  #logo{
+    width: 20px;
+    height: 20px;
+  }
+section .title{
+    position: relative;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+ border-radius: 100px;
+ width: 400px;
+ align-items: center;
+ margin-left: 350px;
+ text-size-adjust: 20px;
+}
+section .title::before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    width: 1900px;
+    height: 3px;
+    transform: translateX(-50%);
+}
+section .title::after{
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    font-size: 20px;
+    color: rgb(220, 22, 22);
+    padding:  5px;
+
+    transform: translateX(-50%);
+}
+#inp{
+	font-size: medium;
+	font-family: Yu Gothic UI;
+	size: 1px;
+	border-radius: 20px;
+	border-color: #f9402c;
+opacity: 1;
+
+	
+}
+/* shoes section styling */
+.shoes{
+    color:#fff;
+    background-size: cover;
+}
+
+.shoes .shoes-product .card{
+    width: calc(25% - 10px);
+    text-align: center;
+    border-radius: 6px solid crimson;
+    padding: 100px 75px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+
+    
+}
+
+
+.shoes a{
+    color: #ddd;
+}
+#p{
+	font-family: Yu Gothic UI;
+	font-weight: bold;
+}
+#ss{
+    width:200px;
+    height: 130px;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.navbar{
+position: absolute;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+	margin-right: 200px;
+	padding-left: 750px;
+
+}
+.navbar.sticky{
+    padding: 15px 0;
+
+}
+.navbar .max-width{
+    display: flex;
+
+    justify-content: space-evenly;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition:  0.3s ease;
+    font-weight: bold;
+    font-family: Yu Gothic UI;
+}
+.navbar .menu li a:hover{
+  font-size: 14px;
+  transition: 0.5;
+}
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #bc6262;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(188, 17, 17);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(214, 83, 83);
+}
+#cart{
+    font-size:20px ;
+    text-align: right;
+    padding-left: 20px;
+}
+
+/*dropdown*/
+.dropbtn {
+    background-color: #3498db00;
+    color: rgb(206, 47, 47);
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 800px;
+    margin-top: -88px;
+    font-family: Yu Gothic UI;
+    font-weight: bold;
+  }
+  #register{
+    margin-top: -100px;
+    margin-bottom: 500px;
+    margin-right: 290px;
+    margin-left: -150px;
+  }
+  #banner{
+ margin-left: 400px;
+ width: 400px;
+ margin-left: 20px;
+ padding-right: 40px;
+ margin-bottom: 400px;
+ font-family: Yu Gothic UI;
+ font-weight: bold;
+ text-align: left;
+ margin-top: -100px;
+
+
+  }
+ #working{
+    text-decoration: underline;
+    font-weight: bolder;
+ }
+#textbox{
+    border-radius: 20px;
+    border-color: crimson;
+    background-color: #fff;
+    height: 35px;
+    width: 170%;
+    color: crimson;
+    border: 1px solid crimson;
+    background-color: rgba(17, 17, 17, 0);
+    border-radius: 20px;
+    outline: none;
+    padding: 0 20px;
+    font-size: 17px;
+    font-family: Yu Gothic UI;
+    transition: all 0.3s ease;
+}
+.text{
+    color: crimson;
+    font-family: Yu Gothic UI;
+    font-weight: bolder;
+    margin-right: 180px;
+    width: 200px;
+    text-align: left;
+    margin-left: 5px;
+}
+#button{color:white;
+    display: block;
+    width: 100px!important;
+    height: 35px;
+    outline: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: crimson;
+    border:  crimson;
+    transition: all 0.3s ease;
+margin-right: 30px;}
+#button:hover{
+    color: crimson;
+background: none;
+border:1px  solid crimson;
+}
+#image{
+    width: 400px;
+    height: 500px;
+}
+#create{
+    font-family: Yu Gothic UI;
+    font-size: 10px;
+    text-align:left;
+    width: 200%;
+    color: rgba(72, 72, 72, 0.508);
+}
+#acc{
+    color: crimson;
+    text-decoration: underline;
+}
+#get{
+    font-size: 26px;
+    
+}
+#google{
+    display: block;
+    width: 220px!important;
+    height: 38px;
+    color: white;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background:black;
+    border: 1px solid rgb(255, 255, 255);
+    transition: all 0.3s ease;
+margin-right: 30px;
+font-weight: 600;
+text-align: center;
+}
+#google:hover{
+    background: none;
+    border: 1px solid black;
+    color: black;
+}
+#google-2{
+    display: block;
+    width: 220px!important;
+    height: 38px;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+   
+    border: 1px solid rgb(0, 0, 0);
+    transition: all 0.3s ease;
+margin-right: 30px;
+font-weight: 600;
+text-align: center;
+}
+#google-2:hover{
+    background: black;
+color: white;
+}
+#forgot{
+    color: crimson;
+    font-size: 10px;
+    align-items: right;
+    font-family: Yu Gothic UI;
+    width: 100%;
+    margin-left: 105px;
+    font-weight: bolder;
+}
